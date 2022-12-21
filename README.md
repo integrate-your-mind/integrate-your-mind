@@ -41,11 +41,11 @@ My goal is to contribute to meaningful projects and make a difference in the wor
 
 </br>
 
-#### My Typing Stats
+<!-- #### My Typing Stats
 
 [<img src="https://api.speedtyper.dev/users/integrate-your-mind/badges/averagewpm" alt="SpeedTyper.dev avg wpm" height="25">](https://www.speedtyper.dev/profile/integrate-your-mind) 
 [<img src="https://api.speedtyper.dev/users/integrate-your-mind/badges/topwpm" alt="SpeedTyper.dev top wpm" height="25">](https://www.speedtyper.dev/profile/integrate-your-mind) 
 [<img src="https://api.speedtyper.dev/users/integrate-your-mind/badges/gamecount" alt="SpeedTyper.dev games" height="25">](https://www.speedtyper.dev/profile/integrate-your-mind)
-#### Github Stats 📊
+#### Github Stats 📊 -->
 
-[![integrate-your-mind's github stats](https://github-readme-stats.vercel.app/api?username=integrate-your-mind)](https://github.com/anuraghazra/github-readme-stats)
+<!-- [![integrate-your-mind's github stats](https://github-readme-stats.vercel.app/api?username=integrate-your-mind)](https://github.com/anuraghazra/github-readme-stats) -->
