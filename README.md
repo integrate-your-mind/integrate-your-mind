@@ -22,8 +22,6 @@
 My goal is to contribute to meaningful projects and make a difference in the world through software while empowering others.
 
 **connect:**
-- 💬 Telegram : [@elon_musk_9000](https://t.me/elon_musk_9000)
-- 💬 Discord: Elon 🧪 Flask Capital#4503
 - 📝 Email : elon@goodboylabs.com
 
 **langs & tools:**   
