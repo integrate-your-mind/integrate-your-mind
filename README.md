@@ -18,7 +18,7 @@
 **What I'm up to:**
 
 - 👨🏽‍💻 Focused on blockchain and artificial intelligence technologies
-- 🌱 Exploring LangChain, OpenAI (GPT-3.5/4), Huggingface, and Gradio
+- 🌱 Exploring LangChain, OpenAI (GPT-4o, 4.5, and o-series (o1, o3), Anthropic (Claude 3.5, 3.7, and 3.7 thinking), Huggingface, and Gradio
 - 📫 Feel free to shoot me a message!
 
 My mission is to contribute to impactful projects and make a difference in the world through software while empowering others.
