@@ -1,4 +1,4 @@
-# 🌌 [**Integra mentem tuam**]
+# 🌌 *𝑰𝒏𝒕𝒆𝒈𝒓𝒂 𝒎𝒆𝒏𝒕𝒆𝒎 𝒕𝒖𝒂𝒎*
 
 *Turning whispers of possibility into echoes of reality.*
 
