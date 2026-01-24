@@ -1,1 +1,1 @@
-# 🌌 *𝑰𝒏𝒕𝒆𝒈𝒓𝒂 𝒎𝒆𝒏𝒕𝒆𝒎 𝒕𝒖𝒂𝒎*
+If it can’t be open sourced, it isn’t useful.
