@@ -1,3 +1,5 @@
-https://github.com/consensus-hq
+Founder of @x402janus
 
-creator of https://github.com/openclaw-consensus-bot
+org: https://github.com/consensus-hq
+
+agent: https://github.com/openclaw-consensus-bot
