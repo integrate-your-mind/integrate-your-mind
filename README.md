@@ -1,5 +1,13 @@
-Founder of @x402janus
+Focused on Autonomous Systems, AI Safety & Alignment, Deep RL, and finding weird optimizations in things.
 
-org: https://github.com/consensus-hq
+Currently building on things like:
 
-agent: https://github.com/openclaw-consensus-bot
+- x402
+- MPP
+- OpenClaw
+- AutoResearch
+- Kubernetes
+
+I am particularly working on how to democratize mathematics further as well.
+
+Feel free to contact me on X @romanmondello.
