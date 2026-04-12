@@ -10,4 +10,4 @@ Currently building on things like:
 
 I am particularly working on how to democratize mathematics further as well.
 
-Feel free to contact me on X @romanmondello.
+Feel free to contact me on X @0xBunny.
