@@ -1,54 +1,35 @@
 # Romy Mondello
 
-Pronouns: she/her and they/them
+**Senior software engineer focused on AI agents, developer tools, and infrastructure.**
 
-## Formal verification first
+I build agent runtimes and the systems around them: decision tools, session search, observability, and reliable execution. I bring six years of professional software engineering across fintech, DeFi, SaaS, and AI systems, alongside independent AI work since 2017.
 
-I authored an [arXiv preprint](https://arxiv.org/abs/2608.02634) resolving the dimension-two, characteristic-two case of the separable Jacobian conjecture by constructing an explicit counterexample, then formalized the end-to-end result in Lean 4/Mathlib. The [public research site](https://github.com/integrate-your-mind/integrate-your-mind.github.io) contains the formalization map, proof artifacts, provenance, and publication record.
+Based in Greater Boston. Open to senior engineering roles in AI systems and infrastructure.
 
-## AI systems and full-stack engineering
+[Portfolio and CV](https://integrate-your-mind.github.io/cv/) · [LinkedIn](https://www.linkedin.com/in/romy-m-08621b168/) · [Research](https://integrate-your-mind.github.io/)
 
-Independent founder and senior AI systems engineer building agent infrastructure, developer tools, research software, and production web systems. My deep-learning work began in 2017. I worked with 6502 Assembly on Atari 2600 systems, and separately built actor-critic agents that played Atari before the GPT-2/GPT-Neo era. I have worked with GPT-era language models since 2019, including GPT-2, GPT-Neo, GPT-J, the GPT-3 beta, ChatScript conversational systems, and today's tool-using agents. I also bring six years of professional software engineering across fintech, DeFi, SaaS, and forward-deployed AI delivery.
+## Selected engineering
 
-I am a cofounder building Agent Cloud, a startup for scalable distributed multi-agent execution and useful continuous work. Its systems use Temporal for long-running orchestration and PostgreSQL as the authority for tenant-scoped runs, budgets, evidence, cancellation, leases, fences, outbox delivery, cleanup, and terminal state. Isolated Docker/QQ execution, broker-mediated model access, protected verification, durable audit records, skills, plugins, prompting, and guardrails make continuous work reviewable.
+| Project | What to look at |
+| --- | --- |
+| [Jev Workflows](https://github.com/integrate-your-mind/jev-codex-plugin) | My open-source Codex plugin. Typed decision consultation, failure diagnosis, and evidence-based completion review. [Verification and limitations](https://github.com/integrate-your-mind/jev-codex-plugin/blob/main/VERIFICATION.md). |
+| [QQ](https://github.com/retsu-AI/qq) | A Rust agent runtime with a terminal UI, headless runner, SQLite sessions, approval policies, and MCP. My contributions include bounded review and run-state controls. [Architecture and guides](https://github.com/retsu-AI/qq/tree/main/docs). |
+| [Ferrite](https://github.com/integrate-your-mind/ferrite) | A Rust-first web framework prototype with TypeScript APIs, server rendering, file-system routing, and browser hydration. [Examples](https://github.com/integrate-your-mind/ferrite/tree/main/examples) and [deployment design](https://github.com/integrate-your-mind/ferrite/blob/main/docs/deployment.md). |
+| [Consensus CLI](https://github.com/integrate-your-mind/consensus-cli) | A local session-observability tool for Codex, OpenCode, and Claude Code, with provider adapters, hooks, WebSockets, and a browser UI. Published beta. [Architecture](https://github.com/integrate-your-mind/consensus-cli/blob/main/ARCHITECTURE.md). |
+| [ChatIndex](https://github.com/integrate-your-mind/chatindex) | A local coding-session search prototype with SQLite indexing, citation-backed retrieval, CLI, MCP server, and HTTP API. [Usage and setup](https://github.com/integrate-your-mind/chatindex#readme). |
 
-## What I build
+More public work includes [Jev NetHack](https://github.com/integrate-your-mind/jev-nethack), an agent-evaluation research repository with preserved recordings and explicit negative results, and [GrokHack](https://github.com/integrate-your-mind/grokhack), a multiplayer world with agent interfaces.
 
-- **Agent systems and infrastructure.** Separately from Agent Cloud, I designed and operate Connie, my OpenClaw agent, and apply it across Agent Pulse, SigilX, and related Consensus HQ systems, routing work across Claude/Codex/OpenAI, MiniMax, Kimi, Groq, Grok, and other provider lanes.
-- **Frameworks and developer tooling.** I am building [Ferrite](https://github.com/integrate-your-mind/ferrite), a Rust-first React/Next-style web framework with JavaScript and TypeScript APIs, SSR, filesystem routing, client hydration, artifact builds, and a native integration path. I am also developing Axiom, a Rust-first agent harness, Ferrum, a Rust JavaScript runtime experiment, and bounded e-graph mechanisms for market-consistency monitoring and auditable context packs.
-- **Web applications and platform systems.** I work across React, Next.js, Node.js, Express, GraphQL, Prisma, Firebase, Docker, Kubernetes, Cloudflare Workers, microservices, and micro-frontends. [GrokHack](https://github.com/integrate-your-mind/grokhack) is a browser and telnet multiplayer world with an authoritative Node.js server, WebSocket and MCP agent interfaces, telemetry, and edge allocation. [Consensus CLI](https://github.com/integrate-your-mind/consensus-cli) is a local-first observability dashboard for Codex, OpenCode, and Claude Code sessions. [ChatIndex](https://github.com/integrate-your-mind/chatindex) is a local-first search and MCP interface for coding-session history, with citation-backed retrieval. [Local inference](https://github.com/integrate-your-mind/mondello-local-inference) is a FastAPI Kokoro TTS daemon with bearer auth, serialized inference, memory guards, and Cloudflare Tunnel failover for a hosted audio path.
-- **Formal verification and mathematical research.** I formalized and published the exact characteristic-two, dimension-two Jacobian result described above. The public [research presentation](https://github.com/integrate-your-mind/integrate-your-mind.github.io) includes the formalization map, kernel receipt, provenance record, and publication receipt.
-- **Scientific AI.** I am developing FruitFlyGPT, a connectome-constrained adaptive-controller and embodied research system built around a 166,700-neuron MaleCNS graph with 25.58 million directed connections, DoOR-derived odor inputs, transmitter-aware sparse dynamics, custom MLX/Metal execution, and dopamine-gated plasticity across 2,891 selected KC-to-MBON contacts. Current FruitFlyGPT experiments test odor-specific learning using explicit control conditions; that biological-learning milestone remains open. I have also built Open Torus / Lab, a fusion-energy research model with interactive graphics and explicit accounting checks, plus quantitative research workflows with falsification and replay controls across ARM64 native MLX and PyTorch MPS paths.
-- **Security and reliability.** I work on prompt-injection CTFs, documented sandbox-escape and jailbreak analysis, forensic and red/blue-team audits, defensive agent boundaries, reproducible verification, and systems that make failures inspectable and recoverable.
+## Systems experience
 
-## Selected work
+At Further, I designed the end-to-end LangGraph agent and ETL architecture for a homebuying product, integrating Zillow and mortgage APIs with typed state, retrieval, tool orchestration, and deterministic risk controls. Earlier, at Knox Financial, I built housing search, ingestion pipelines, PostgreSQL services, REST APIs, and deployment checks.
 
-- [Characteristic-two Jacobian research site](https://github.com/integrate-your-mind/integrate-your-mind.github.io) — public formalization and publication evidence.
-- **Projective–Steiner formalization** — a version-pinned Lean certificate for the one-deletion multiset-code theorem chain, including decoder and membership-test correctness.
-- **EdgeKit** — a privately developed Swift framework for on-device LLM and speech workloads, with MLC generation, Whisper/Core ML transcription, model packs, and CLI/integration layers.
-- [SpendOS](https://github.com/consensus-hq/spendos) — agent spending governance with human approvals, policy controls, x402 services, and an on-chain audit trail; my work focused on design and security review.
-- [Ferrite](https://github.com/integrate-your-mind/ferrite) — Rust-first web framework foundation with TypeScript APIs.
-- [GrokHack](https://github.com/integrate-your-mind/grokhack) — multiplayer browser/telnet world with AI agents via MCP.
-- [ChatIndex](https://github.com/integrate-your-mind/chatindex) + [Consensus CLI](https://github.com/integrate-your-mind/consensus-cli) — beta tools for local coding-agent history, exact citations, MCP/HTTP retrieval, and live session observability.
-- [Local inference](https://github.com/integrate-your-mind/mondello-local-inference) — FastAPI Kokoro TTS failover service exposed through Cloudflare Tunnel.
-- [SigilX contracts](https://github.com/sigilxyz/sigilx-contracts) and [SigilX skill](https://github.com/sigilxyz/sigilx-skill) — contributions to x402 payment safety, proof-verification workflows, ERC-8183 certification, and OpenClaw-compatible agent tooling.
-- FruitFlyGPT — connectome-constrained adaptive controllers, full-CNS sparse simulation, and embodied research infrastructure.
-- Open Torus / Lab — fusion-energy simulation with interactive Three.js views and checked accounting.
-- Market-consistency e-graph — TypeScript union-find residual monitoring over live Hyperliquid market relationships.
-- Shellbook Lab — private cross-platform agent-ops product with Next.js, Effect, Zustand, iOS, and macOS surfaces.
+My independent work also includes a jointly developed agent-execution platform using Temporal and PostgreSQL, and Apple-silicon ML experiments using MLX and PyTorch MPS. My [CV](https://integrate-your-mind.github.io/cv/) covers the wider portfolio and career history.
 
-## Earlier work
+## Formal methods and research
 
-At Verus AI, my contract work covered Ethereum ingestion into BigQuery, Jupyter/Colab analytics, address classification and clustering, Google Cloud model infrastructure, and the design of an AI analysis architecture combining vector embeddings and GPT-4.
-
-At Further, I architected the entire LangGraph system and shipped full agent pipelines integrated with Zillow and mortgage APIs for financial-planning workflows, with typed state, tool orchestration, retrieval, deterministic sizing and risk controllers, and supporting ETL/data workflows. My earlier engineering work includes multi-tenant SaaS, distributed Postgres pipelines, REST services, Ethereum analytics, microservice and micro-frontend architectures, Kubernetes deployment, and continuously running social agents.
+I authored an [arXiv preprint](https://arxiv.org/abs/2608.02634) giving a dimension-two counterexample to the separable Jacobian conjecture in characteristic two, with a Lean 4/Mathlib formalization. The [public research repository](https://github.com/integrate-your-mind/integrate-your-mind.github.io) contains the paper, provenance, and proof-evidence map.
 
 ## Technical focus
 
-TypeScript · JavaScript · Python · Rust · Solidity · Swift · Go · Lean
-
-React · Next.js · Node.js · Hono · Express · FastAPI · GraphQL · Prisma · Effect · LangGraph · MCP · OpenClaw · elizaOS
-
-Docker · Kubernetes · Cloudflare Workers · Base · Foundry · x402 · ERC-8183 · Uniswap · Aave · Chainlink · Lean/Mathlib
-
-I like difficult boundaries: making agents useful without making them opaque, making research reproducible, and making infrastructure safe enough to operate in the real world.
+Rust · TypeScript · Python · React · Effect · LangGraph · MCP · PostgreSQL · SQLite · Temporal · Docker · Cloudflare Workers · Lean 4
