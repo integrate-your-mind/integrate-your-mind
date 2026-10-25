@@ -4,7 +4,7 @@
 
 ## Checks
 
-- The six selected pins match the requested order: Jev, QQ, Ferrite, Consensus CLI, Jev NetHack, and the research site.
+- The six recommended pins match the requested order: Jev, QQ, Ferrite, Consensus CLI, Jev NetHack, and the research site. This review did not perform the later live pin mutation or GraphQL readback.
 - Jev wording is supported by merged [PR #10](https://github.com/integrate-your-mind/jev-codex-plugin/pull/10), whose current public state is merged at `2026-10-15T23:54:39Z`. The profile does not imply that open [PR #12](https://github.com/integrate-your-mind/jev-codex-plugin/pull/12) or version 0.5.2 is released.
 - QQ wording is supported by merged [PR #333](https://github.com/retsu-AI/qq/pull/333) and [PR #319](https://github.com/retsu-AI/qq/pull/319). The profile says "contributed merged fixes" and does not claim a live-loop result, installation, adoption, or sole authorship.
 - The QQ description accurately describes the public README's terminal, headless, server, SQLite, approval, and MCP surfaces. "Collaborative" is safer than a sole-author claim because GitHub attributes most QQ commits to `lg2m`.
@@ -17,3 +17,9 @@
 ## Limits
 
 The employment and independent-experience statements are resume claims linked to the public CV. GitHub repository metadata cannot independently establish those historical claims. JEV was unavailable with `provider_error`; no retry was made. No required edit remains for this exact head.
+
+## Metadata proposals
+
+- **Jev topics. ACCEPTED.** `ai-agents`, `claude-code`, `codex`, and `developer-tools` match the README's Codex and Claude Code workflow, MCP tools, lifecycle adapters, standalone skills, and developer-tool purpose. The current topic set is empty, so these topics improve discovery without adding an unsupported claim.
+- **Jev NetHack description. ACCEPTED.** "Bounded NetHack agent runner with reproducible experiment artifacts and recorded negative-results research" is accurate. The README describes a bounded runner, sanitized data, release bundles, recordings, and negative or inconclusive experiments. It avoids claiming ascension or state-of-the-art performance.
+- **Jev NetHack topics. ACCEPTED with one optional refinement.** `ai-agents`, `nethack`, and `research` are directly supported. `benchmark` is defensible because the README has a benchmark plan and evaluation contract, but `agent-evaluation` would be more precise and would avoid implying a positive benchmark result. Recommended final set: `ai-agents`, `agent-evaluation`, `nethack`, `research`.
