@@ -22,3 +22,13 @@ The PDF contains the canonical six-year statement, Knox 2020 start, current JEV 
 The current validator returns `ok:false` with exactly one issue: `missing canonical phone number`. All other canonical fields pass. This is a checker/privacy policy mismatch, not a factual defect under the approved public-contact policy.
 
 The HTML’s public links returned HTTP 200 for JEV, QQ PRs #72/#333/#319, arXiv, mondello.dev, and the GitHub profile at review time. Research wording remains broad and public-safe; it should not be expanded into product-security ownership claims.
+
+## Final refined checkpoint
+
+Writer checkpoint: `d45a8db`.
+
+Final PDF SHA-256: `7130ebbf599d24a88d426a4a8e9b11474b44151cad68c61beb4efab0ddbae4da`.
+
+The requested copy refinements are present: the summary now says “QQ runtime contributions,” and the redundant authorship, production/customer-acceptance, and duplicate research-scope disclaimers are removed. Re-extraction, PDF metadata, embedded-font inspection, and a fresh rendered-page review pass. The current validator still reports only `missing canonical phone number`; public phone omission remains intentional.
+
+Final verdict: ACCEPT for public publication, conditional only on preserving the intentional phone exception and publishing this exact PDF hash with the matching HTML link.
